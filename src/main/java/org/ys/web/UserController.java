@@ -23,7 +23,6 @@ public class UserController {
 		user.setPassword("123456");
 		coreUserService.save(user);
 		return "hello";
-		
 		//return new ModelAndView("user_list");
 	}
 }
